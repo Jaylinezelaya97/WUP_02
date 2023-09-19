@@ -33,7 +33,7 @@ $H_A$: There is a difference in the vitimin C content of cabbages based on culti
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 Vitamin C content is a numerical variable, cultivation method is categorical.
-
+Therefore, we use chat GPT or numerical cat helper file.
 
 
 ```{r}
@@ -63,6 +63,7 @@ ggplot(data, aes(x = Cult, y = VitC)) +
     y = "VitC"
 ```
 
+There is a higher vitamin C content depending on cultivation method. C39 cultivation method yields an average of about 51 vitamin C, while on the other hand C52 cultivation method yields an average of 64 vitamin C.
 
 ### Numerical Descriptive Results
 
@@ -79,7 +80,7 @@ summary_stats <- data %>%
 summary_stats
 ```
 
-
+There is a larger difference in Vitamin C content in cabbages depending on cultivation method. C39 cultivation method on average yields 51 vitamin C. C52 cultivation method yields on average 64.5 vitamin C count.
 
 ## Inferential Results
 
@@ -93,8 +94,11 @@ summary(anova_result)
 
 ```
 
-
+P value is .00000000307. P value is less than 0.05. Therefore, we reject null hypothesis.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+The original question was is there a difference in Vitamin C content in the cabbages depending on cultivation method. There is a difference in Vitamin C content in the cabbages depending on cultivation method. The difference is so insignificant we to reject hypothesis 
