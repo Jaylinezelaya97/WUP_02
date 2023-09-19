@@ -24,8 +24,9 @@ veggy <- cabbages
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
+$H_0$ There is no difference in Vitamin C content based on cultivation method
 
-$H_A$: There is a difference in the vitimin C content of cabbages based on cultivation method
+$H_A$: There is a difference in the vitiman C content of cabbages based on cultivation method
 
 # Methods
 
@@ -93,11 +94,11 @@ summary(anova_result)
 
 ```
 
-P value is .00000000307. P value is less than 0.05. Therefore, we reject null hypothesis.
+P value is .00000000307. P value is less than 0.05. Therefore, we fail to reject null hypothesis.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
 
-The original question was is there a difference in Vitamin C content in the cabbages depending on cultivation method. There is a difference in Vitamin C content in the cabbages depending on cultivation method. The difference is so insignificant we to reject hypothesis 
+The original question was is there a difference in Vitamin C content in the cabbages depending on cultivation method. There is a difference in Vitamin C content in the cabbages depending on cultivation method. The difference is so insignificant we fail to reject null hypothesis 
