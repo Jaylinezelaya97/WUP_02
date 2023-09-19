@@ -94,11 +94,11 @@ summary(anova_result)
 
 ```
 
-P value is .00000000307. P value is less than 0.05. Therefore, we fail to reject null hypothesis.
+P value is .00000000307. P value is less than 0.05. Therefore, we reject null hypothesis.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
 
-The original question was is there a difference in Vitamin C content in the cabbages depending on cultivation method. There is a difference in Vitamin C content in the cabbages depending on cultivation method. The difference is so insignificant we fail to reject null hypothesis 
+The original question was is there a difference in Vitamin C content in the cabbages depending on cultivation method. There is a difference in Vitamin C content in the cabbages depending on cultivation method. The difference is so insignificant we reject null hypothesis 
